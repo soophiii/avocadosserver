@@ -1,0 +1,49 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+    background-color: rgb(245, 245, 220)
+ 
+}
+canvas {
+  display: block;
+    
+}
+
+nav{
+    padding:1rem;
+    background-color: rgb(139, 69, 19);
+    
+}
+
+a{
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(0, 128, 0);
+}
+
+a#ola {
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 100, 0);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 1px 6px rgb(0, 128, 0);
+    padding:1rem 2rem;
+    border-radius:50px;
+    
+}
+
+a#ola:hover{ 
+    background:rgb(0, 128, 0);
+    color:rgb(245, 245, 220);
+    transition:all ease 1s;
+    top:50.5%;
+    box-shadow:1px 1px 6px rgb(0, 128, 0);
+
+}
+
